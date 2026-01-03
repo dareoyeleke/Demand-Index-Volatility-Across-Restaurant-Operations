@@ -25,7 +25,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  Do weekends materially increase volatility?
 
--  Are promotions effective in stabilizing demand?
+-  Are promotions effective in driving demand?
 
 -  What operational factors contribute most to instability?
 
@@ -95,9 +95,9 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 
 
--  Translating data into decisions.
+**Translating data into decisions.**
 
--  Key Findings
+**Key Findings**
 
 -  Demand volatility is structurally driven, not random
 
