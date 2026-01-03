@@ -34,34 +34,33 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  High-level overview of volatility across the business.
 
--  Key Takeaways
+**Key Takeaways**
 
 -  Average volatility differs meaningfully across restaurant types
 
 -  Weekends show significantly higher volatility than weekdays
 
--  Promotional activity has limited stabilizing impact
+-  Across all restaurant types as a whole, demand Volatility is relatively high
 
 ### 2️⃣ Volatility by Restaurant Type
 
-Understanding structural demand differences.
+**Understanding structural demand differences.**
 
-Insights
+**Insights by Average**
+- Cafe's show the highest Volatity
 
-Fine Dining shows the highest volatility — sensitive to experiential demand
+- Kopitiam Locations show the lowest Volatility
 
-Food Stalls exhibit the most stable patterns
-
-Cafés and Casual Dining sit in the middle range
+- Kopitiam seems to be the most stable
 
 ### 3️⃣ Time-Based Volatility Analysis
 
 <img width="1920" height="1078" alt="VOLATILITY SNAP 2" src="https://github.com/user-attachments/assets/fe12bf68-506f-423d-8b70-86dfa3622052" />
 
 
--  How demand changes across days and weeks.
+**How demand changes across days and weeks.**
 
--  Insights
+**Insights**
 
 -  Weekend demand is significantly more volatile
 
@@ -69,18 +68,30 @@ Cafés and Casual Dining sit in the middle range
 
 -  Seasonal effects are present but secondary to behavioral patterns
 
+-  Huge in Volatility for august and then Sharp fall for September perharps signalling beginning of school period
+
+-  Huge Difference in Volatility from End of year Holiday Season and January as Families contribute to demand in December, and then individuals follow trends such as Dry January leading to a High change in Volatility 
+
 ### 4️⃣ Volatility Distribution & Risk Profiles
 <img width="1920" height="1079" alt="VOLATILITY SNAP 3" src="https://github.com/user-attachments/assets/8f04447e-b36a-4a96-8e45-f623905a2647" />
 
 -  Comparing dispersion and risk across restaurant types.
 
--  Insights
+**Insights**
 
 -  High-risk formats show wider dispersion in volatility
 
 -  Low-risk formats demonstrate consistency even under external pressure
 
+-  Promotional activity has limited stabilizing impact
+  
 -  Volatility clusters around behavioral, not promotional, factors
+
+-  Casual Dining shows the highest volatility — sensitive to experiential demand
+
+-  Kopitiam exhibit the most stable patterns
+
+-  Cafés and Fine Dining sit in the middle range
 
 5️⃣ Executive Summary & Recommendations
 
