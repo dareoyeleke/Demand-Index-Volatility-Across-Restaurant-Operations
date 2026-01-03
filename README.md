@@ -16,6 +16,9 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  Translate analytical findings into operational insights
 
+### Data Set Acquired From 
+-  https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews
+
 ### 🧠 Key Questions Addressed
 
 -  Which restaurant types experience the highest demand volatility?
@@ -34,7 +37,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  High-level overview of volatility across the business.
 
-**Key Takeaways**
+**Key Takeaways Based on the Average**
 
 -  Average volatility differs meaningfully across restaurant types
 
@@ -42,7 +45,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  Across all restaurant types as a whole, demand Volatility is relatively high
 
-### 2️⃣ Volatility by Restaurant Type
+### 2️⃣ Volatility by Restaurant Type also According to Dashboard
 
 **Understanding structural demand differences.**
 
@@ -62,9 +65,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 **Insights**
 
--  Weekend demand is significantly more volatile
-
--  Weekday demand remains relatively stable
+-  With the exception of Fine Dining and Kopitiam locations which show opposing trends, Weekend demand is significantly more volatile
 
 -  Seasonal effects are present but secondary to behavioral patterns
 
@@ -78,11 +79,6 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  Comparing dispersion and risk across restaurant types.
 
 **Insights**
-
--  High-risk formats show wider dispersion in volatility
-
--  Low-risk formats demonstrate consistency even under external pressure
-
 -  Promotional activity has limited stabilizing impact
   
 -  Volatility clusters around behavioral, not promotional, factors
@@ -95,7 +91,8 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 5️⃣ Executive Summary & Recommendations
 
-<img width="1920" height="1135" alt="VOLATILITY SNAP 4" src="https://github.com/user-attachments/assets/3747ffc3-2faf-45b9-8f79-9c5ed77c5077" />
+<img width="1920" height="1080" alt="VOLATILITY SNAP4" src="https://github.com/user-attachments/assets/e20c7651-9856-4bf9-8bf5-c88a7c3870b2" />
+
 
 
 -  Translating data into decisions.
@@ -130,7 +127,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 ### Metrics Created:
 
--  Revenue volatility (absolute percentage change)
+-  Average of Revenue Volatility Index Ranges (Highest and Lowest) 
 
 -  Time-based segmentation (weekday/weekend)
 
