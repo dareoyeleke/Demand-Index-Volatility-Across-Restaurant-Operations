@@ -149,3 +149,29 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  Excel (validation & QA) 🔢
 
 -  GitHub (version control & documentation)
+
+
+## ⚙️ How to Reproduce
+### Requirements
+
+-  Kaggle Account to access link 
+
+-  Access Link [https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews]
+
+-  Jupyter Notebook
+  
+-  Power Bi To run CSV files
+
+## Steps
+
+-  Kaggle Account is needed to access and download source file [https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews]
+
+-  Load source files into Jupyter Notebook
+
+-  Access Python Script -Restaurant_Demand_Index_Volatility.ipynb- at 🔗 [https://github.com/dareoyeleke/Demand-Index-Volatility-Across-Restaurant-Operations/blob/main/Restaurant_Demand_Index_Volatility.ipynb]
+
+-  Run Queries to generate Data 
+
+-  CSV's from generated data can be loaded into PowerBI from Visual and Dashboard Creation
+
+-  Explore queries and modify filters for deeper analysis
