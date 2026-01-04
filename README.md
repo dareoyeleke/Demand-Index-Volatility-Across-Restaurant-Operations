@@ -175,3 +175,9 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  CSV's from generated data can be loaded into PowerBI from Visual and Dashboard Creation
 
 -  Explore queries and modify filters for deeper analysis
+
+### 📎 Author
+
+[Dare Oyeleke]
+Data Analyst | Healthcare Analytics
+[(https://www.linkedin.com/in/dareoyeleke/)] | [(https://github.com/dareoyeleke)]
