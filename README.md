@@ -112,7 +112,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  Demand volatility is structurally driven, not random
 
--  Weekends amplify volatility across all restaurant types
+-  Weekends and Holiday Periods amplify volatility across all restaurant types
 
 -  Promotions do not meaningfully stabilize demand
 
@@ -120,15 +120,15 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 **Recommendations**
 
--  Increase staffing flexibility during peak volatility windows - We do this by allowing more flexibility in schedule by having more employees on call during weekends shown to have about 33% volatility increase compared to weekdays, and holiday periods during the summer and years end which have about 20% and 40% differences respectivelly to potentially combat unstable traffic and reduce wait times among customers to maintain consistently remarkable  experience among customers 
+-  Increase staffing flexibility during peak volatility windows - We do this by allowing more flexibility in schedule by having more employees on call during weekends shown to have about 33% volatility increase compared to weekdays, and holiday periods during the summer and years end which have about 20% and 40% differences respectivelly to combat unstable traffic and reduce wait times among customers to maintain consistently remarkable  experience among customers 
 
--  Focus on operational consistency rather than discounting - To do this we need to ensure service, especially commendable service is delivered across the board by every employee, by implimented extra training to bridge the gap where needed between employees 
+-  Focus on operational consistency rather than discounting - To do this we need to ensure service, especially commendable service is delivered across the board by every employee, by implimenting extra training to bridge the gap where needed between employees 
 
--  Monitor high-risk formats with proactive forecasting - Apart from implimenting on call shifts to match unpredictable traffic. Implimenting secret shoppers to evaluate service, encouraging customer reviews to guage experience by the day and having spot checks by managers on duty can help bridge the gap and take notice of operational factors that lead to inconsistencies in Revenue
+-  Monitor high-risk formats with proactive forecasting - Apart from implimenting on call shifts to match unpredictable traffic. Implimenting secret shoppers to evaluate service, encouraging customer reviews on visit days to guage experience by the day and having spot checks by managers on duty will help bridge the gap and take notice of operational factors that lead to inconsistencies in Revenue
 
 ### Limitations 
 
--  Figures such as labor percentages i.e employees on shift per daily and hourly revenue, also taking note of employees scheduled on specific days, and having customers leave reviews on days of visit would help establish correlation that would contribute to focusing efforts to improve operational conditions to help focus efforts where needed to  
+-  Figures such as labor percentages i.e employees on shift per daily and hourly revenue, amd which specific are employees scheduled on specific days, as well as having customers leave reviews on days of visit would help establish correlation that contribute to focusing efforts where needed to improve Operational Conditions. 
 
 <img width="1920" height="1080" alt="VOLATILITY SNAP 5" src="https://github.com/user-attachments/assets/0c8765a9-5755-444a-b808-41c844b4229b" />
 
