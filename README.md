@@ -184,7 +184,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  Run Queries to generate Data
 
--  The following CSV's were generated to create the Dashboard and Visuals 
+- **The following CSV's were generated to create the Dashboard and Visuals** 
     - 
 
 -  CSV's from generated data can be loaded into PowerBI from Visual and Dashboard Creation
