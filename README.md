@@ -12,7 +12,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  Identify temporal drivers (weekday vs weekend effects)
 
--  Assess the impact of external stressors (weather, promotions)
+-  Assess the impact of external stressors (weather, promotions, events)
 
 -  Translate analytical findings into operational insights
 
@@ -28,6 +28,8 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  Are promotions effective in driving demand?
 
 -  What operational factors contribute most to instability?
+
+-  How does weather (Stressful (Rain) VS Normal weather) influence Demand? 
 
 ### 🧪 Methodology
 -  Data was imported in csv format and data was cleaned by normalizing dates to a more accesible format, needed columns were also renamed for easier access in regards to less typing
@@ -65,7 +67,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 - Kopitiam Locations show the lowest Volatility
 
-- Kopitiam seems to be the most stable
+- Kopitiam Locations show the most stable average Demand
 
 ### 3️⃣ Time-Based Volatility Analysis
 
@@ -80,7 +82,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 -  Seasonal effects are present but secondary to behavioral patterns
 
--  Huge in Volatility for august and then Sharp fall for September perharps signalling beginning of school period
+-  Huge change in Volatility for august and then Sharp fall for September signalling end of summer and beginning of school period signalling less family and student traffic
 
 -  Huge Difference in Volatility from End of year Holiday Season and January as Families contribute to demand in December, and then individuals follow trends such as Dry January leading to a High change in Volatility 
 
@@ -90,15 +92,15 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  Comparing dispersion and risk across restaurant types.
 
 **Insights**
--  Promotional activity has limited stabilizing impact
+-  Promotional activity has limited stabilizing impact, as low promotion dominates across promotion segment for all risk factors showing most demand is organic and not driven by promotion. 
   
 -  Volatility clusters around behavioral, not promotional, factors
 
--  Casual Dining shows the highest volatility — sensitive to experiential demand
+-  Casual Dining shows the highest skews from the mean i.e sensitive to experiential demand. Casual Dining locations are the average person's go to, therefore having the most amount of skews in regards to traffic. Holiday periods affect Casual dinings the most as most families especially with kids and older populations cater to casual dining. So do food stalls. Food stalls may see sharp increase in demand due to concerts, fairs and then have limited traffic once concentrated visits due to events are over with 
 
--  Kopitiam exhibit the most stable patterns
+-  Kopitiam exhibit the most stable patterns. Kopitiam is a niche restaurant format, signalling acquired taste or regulars who seek out specific profiles of coffee. Social media Trends or such can influence attention around Kopitiam and affect volatility. Hence having the least amount of skew from the average. 
 
--  Cafés and Fine Dining sit in the middle range
+-  Cafés and Fine Dining sit in the middle range of skews from the average. While fine dining exceeds cafe in skew, cafe's have increased presence of regulars, people looking to study, or grab coffee on the way to work and therefore contribute to regular predictable traffic. Fine dining serves the less popular crowds, with more money to spend per visit, or celebrating special occasions, and also in most cases requiring reservations, in a way have controlled traffic. 
 
 5️⃣ Executive Summary & Recommendations
 
@@ -120,7 +122,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 **Recommendations**
 
--  Increase staffing flexibility during peak volatility windows - We do this by allowing more flexibility in schedule by having more employees on call during weekends shown to have about 33% volatility increase compared to weekdays, and holiday periods during the summer and years end which have about 20% and 40% differences respectivelly to combat unstable traffic and reduce wait times among customers to maintain consistently remarkable  experience among customers 
+-  Increase staffing flexibility during peak volatility windows, especially to casual dining locations - We do this by allowing more flexibility in schedule by having more employees on call during weekends shown to have about 33% volatility increase compared to weekdays, and holiday periods during the summer and years end which have about 20% and 40% differences respectivelly to combat unstable traffic and reduce wait times among customers to maintain consistently remarkable  experience among customers 
 
 -  Focus on operational consistency rather than discounting - To do this we need to ensure service, especially commendable service is delivered across the board by every employee, by implimenting extra training to bridge the gap where needed between employees 
 
@@ -128,7 +130,8 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 ### Limitations 
 
--  Figures such as labor percentages i.e employees on shift per daily and hourly revenue, amd which specific are employees scheduled on specific days, as well as having customers leave reviews on days of visit would help establish correlation that contribute to focusing efforts where needed to improve Operational Conditions. 
+-  Figures such as labor percentages i.e employees on shift per daily and hourly revenue, amd which specific are employees scheduled on specific days, as well as having customers leave reviews on days of visit would help establish correlation that contribute to focusing efforts where needed to improve Operational Conditions.
+-  As there were no recorded events, it was impossible to ascertain the effects of events in isolation or combination with other factors on Volatilty, which could potentially be a stressor for volatility change 
 
 <img width="1920" height="1080" alt="VOLATILITY SNAP 5" src="https://github.com/user-attachments/assets/0c8765a9-5755-444a-b808-41c844b4229b" />
 
