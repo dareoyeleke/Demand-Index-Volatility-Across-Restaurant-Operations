@@ -185,7 +185,14 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  Run Queries to generate Data
 
 - **The following CSV's were generated to create the Dashboard and Visuals** 
-    - 
+    - restaurant_type_volatility.csv to generate "Average Volatility for each restaurant type" in Visual 1 
+    - monthly_sales.csv to generate "Average Revenue Volatility Across All Restaurants" and "Max Revenue Volatility for all Restaurants" KPI cards in Visual 1 as well as "What is the Average Revenue Volatility by the Month" in Visual 2
+    - restaurant_type_volatility.csv to generate both Highest and Lowest AVG Volatility KPI cards for each restaurant type in Visual 1
+    - daytype_volatility.csv to generate AVG weekday and weekend Volatility KPI cards as well as comparison chart for AVG weekday vs weeekend Volatility Chart in Visual 1
+    - daily_revenue.csv to generate "Daily Revenue Volatility by Restaurant" Matrix Visual in Visual 3
+    - weather_volatility.csv to generate weather volatilty by reported incidents visual in Visual 3
+    - restaurant_volatility.csv to generate "Statistical Values for Volatility Across Restaurant Type" in Visual 4
+    - location_risk.csv to generate Risk Explanation Matrix in Visual 4 
 
 -  CSV's from generated data can be loaded into PowerBI from Visual and Dashboard Creation
 
