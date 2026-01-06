@@ -92,7 +92,7 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  Comparing dispersion and risk across restaurant types.
 
 **Insights**
--  Promotional activity has limited stabilizing impact, as low promotion dominates across promotion segment for all risk factors showing most demand is organic and not driven by promotion. 
+-  Promotional activity has limited stabilizing impact, as low promotion dominates across promotion segment for all risk factors showing most demand is organic and mostly generally stable with peak period sensitivity and is not strongly driven by promotion sitting at a 0.26 on the RVI. This highly takes into consideration that low promotion dominates across all risk sections.   
   
 -  Volatility clusters around behavioral, not promotional, factors
 
