@@ -6,6 +6,13 @@ This project analyzes demand volatility across restaurant operations to identify
 
 Using transactional data, the project evaluates how restaurant type, time patterns, and environmental conditions influence fluctuations in demand.
 
+### How to read this project 
+
+OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> METHODOLOGY ---> DASHBOARD AND VISUAL OVERVIEW AND INSIGHTS ---> KEY FINDINGS ---> RECOMMENDATIONS ---> LIMITATIONS. 
+
+### LASTLY 
+-  Reproducing the project comes last with the 1) Dataset 2) Required tools 3) Methodology 4) CSV's generated 5) Steps to Reproduce
+
 ### 🎯 Objectives
 
 -  Quantify demand volatility across restaurant formats
@@ -96,11 +103,11 @@ Using transactional data, the project evaluates how restaurant type, time patter
   
 -  Volatility clusters around behavioral, not promotional, factors
 
--  Casual Dining shows the highest skews from the mean i.e sensitive to experiential demand. Casual Dining locations are the average person's go to, therefore having the most amount of skews in regards to traffic. Holiday periods affect Casual dinings the most as most families especially with kids and older populations cater to casual dining. So do food stalls. Food stalls may see sharp increase in demand due to concerts, fairs and then have limited traffic once concentrated visits due to events are over with 
+-  Casual Dining and food stalls show the highest skews from the mean i.e Standard deviation(std) from the mean at a 0.19 std on the RVI with Casual dining having a max RVi of 1 as opposed to Food Stalls at 0.91 std i.e  Both aresensitive to experiential demand. Casual Dining locations are the average person's go to, therefore having the most amount of skews in regards to traffic. Holiday periods affect Casual dinings the most as most families especially with kids and older populations cater to casual dining. Food stalls may see sharp increase in demand due to concerts, fairs and then have limited traffic once concentrated visits due to events are over with.
 
--  Kopitiam exhibit the most stable patterns. Kopitiam is a niche restaurant format, signalling acquired taste or regulars who seek out specific profiles of coffee. Social media Trends or such can influence attention around Kopitiam and affect volatility. Hence having the least amount of skew from the average. 
+-  Kopitiam exhibit the most stable patterns showing a standard deviation of 0.08 from the mean on the RVI with a 0.32 max. Kopitiam is a niche restaurant format, signalling acquired taste or regulars who seek out specific profiles of coffee. Social media Trends or such can influence attention around Kopitiam and affect volatility. Hence having the least amount of skew from the average. 
 
--  Cafés and Fine Dining sit in the middle range of skews from the average. While fine dining exceeds cafe in skew, cafe's have increased presence of regulars, people looking to study, or grab coffee on the way to work and therefore contribute to regular predictable traffic. Fine dining serves the less popular crowds, with more money to spend per visit, or celebrating special occasions, and also in most cases requiring reservations, in a way have controlled traffic. 
+-  Cafés and Fine Dining sit in the middle range of skews from the average with 0.15 and 0.16 deviation from the mean respectively, both close to Casual dining and Food stalls, but also Cafe's and Fine Dining stay in the mid range by balancing out with their max on the RVI scale of 0.73 max for Cafe's and 0.79 max for Fine Dining on the RVI. While fine dining exceeds cafe in skew, cafe's have increased presence of regulars, people looking to study, or grab coffee on the way to work and therefore contribute to regular predictable traffic. Fine dining serves the less popular crowds, with more money to spend per visit, or celebrating special occasions, and also in most cases requiring reservations, in a way have controlled traffic. 
 
 5️⃣ Executive Summary & Recommendations
 
@@ -184,6 +191,8 @@ Using transactional data, the project evaluates how restaurant type, time patter
 -  Data set access Link [https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews] exported as zip file and loaded into Jupyter Notebook as csv. 
 
 -  Access Python Script -Restaurant_Demand_Index_Volatility.ipynb- at 🔗 [https://github.com/dareoyeleke/Demand-Index-Volatility-Across-Restaurant-Operations/blob/main/Restaurant_Demand_Index_Volatility.ipynb]
+
+-  Refer to Methodology at the top of page to follow steps taking to clean and aggregate data. 
 
 -  Run Queries to generate Data
 
