@@ -8,10 +8,10 @@ Using transactional data, the project evaluates how restaurant type, time patter
 
 ### How to read this project 
 
-OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> METHODOLOGY ---> DASHBOARD AND VISUAL OVERVIEW AND INSIGHTS ---> KEY FINDINGS ---> RECOMMENDATIONS ---> LIMITATIONS. 
+OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND INSIGHTS ---> KEY FINDINGS ---> RECOMMENDATIONS ---> LIMITATIONS. 
 
 ### LASTLY 
--  Reproducing the project comes last with the 1) Dataset 2) Required tools 3) Methodology 4) CSV's generated 5) Steps to Reproduce
+-  Reproducing the project comes last with the 1) Steps to Reproduce 2) Dataset Link access 3) Required tools 4) Methodology 5) CSV's generated for specific visual creation 
 
 ### 🎯 Objectives
 
@@ -192,7 +192,7 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> METHODOLOGY ---> DASHBOARD AND VISU
 
 -  Access Python Script -Restaurant_Demand_Index_Volatility.ipynb- at 🔗 [https://github.com/dareoyeleke/Demand-Index-Volatility-Across-Restaurant-Operations/blob/main/Restaurant_Demand_Index_Volatility.ipynb]
 
--  Refer to Methodology at the top of page to follow steps taking to clean and aggregate data. 
+-  For easier coding flow refer to methodology at the top of page to follow steps taking to clean and aggregate data to arrive at csv generation from the code script  
 
 -  Run Queries to generate Data
 
