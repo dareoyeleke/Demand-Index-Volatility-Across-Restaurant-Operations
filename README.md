@@ -41,6 +41,8 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 ### 🧪 Methodology
 -  Data was imported in csv format and data was cleaned by normalizing dates to a more accesible format, needed columns were also renamed for easier access in regards to less typing
 
+-  Revenue is calculated as order value * quantity sold. 
+
 -  RVI (Revenue Volatility Index) was calculated as a Scaler Comparison from Mininmum to Maximum, using the absolute value of the percentage change in revenue as a rolling value over the period of 3 months and 2 where 3 wasn't applicable per location
 
 -  Promotion and risk patterns were segmented into low, medium and high tiers using percentiles and quartiles respectively. Risk explanations are forecasted as a combination of promotion and risk patterns. Risk patterns are based on RVI
@@ -102,6 +104,8 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  Promotional activity has limited stabilizing impact, as low promotion dominates across promotion segment for all risk factors showing most demand is organic and mostly generally stable with peak period sensitivity and is not strongly driven by promotion sitting at a 0.26 on the RVI. This highly takes into consideration that low promotion dominates across all risk sections.   
   
 -  Volatility clusters around behavioral, not promotional, factors
+
+-  Behavioral interpretations are informed by industry knowledge and supported by observed statistical distributions, but are not causal claims.
 
 -  Casual Dining and food stalls show the highest skews from the mean i.e Standard deviation(std) from the mean at a 0.19 std on the RVI with Casual dining having a max RVi of 1 as opposed to Food Stalls at 0.91 std i.e  Both aresensitive to experiential demand. Casual Dining locations are the average person's go to, therefore having the most amount of skews in regards to traffic. Holiday periods affect Casual dinings the most as most families especially with kids and older populations cater to casual dining. Food stalls may see sharp increase in demand due to concerts, fairs and then have limited traffic once concentrated visits due to events are over with.
 
