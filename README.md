@@ -1,19 +1,26 @@
 # 📊 Demand Volatility in the Hospitality Industry
+<br><br>
 ## A Data-Driven Analysis of Operational Risk and Customer Behavior
-### 🔍 Project Overview
+<br><br>
 
+## 🔍 Project Overview
 This project analyzes demand volatility across restaurant operations to identify the structural drivers behind unstable revenue patterns. Rather than focusing on revenue levels alone, the analysis examines how and when volatility occurs, enabling more informed operational and staffing decisions.
 
 Using transactional data, the project evaluates how restaurant type, time patterns, and environmental conditions influence fluctuations in demand.
-
-### How to read this project 
-
+<br>
+## How to read this project 
 OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND INSIGHTS ---> KEY FINDINGS ---> RECOMMENDATIONS ---> LIMITATIONS. 
+<br>
 
-### LASTLY 
--  Reproducing the project comes last with the 1) Steps to Reproduce 2) Dataset Link access 3) Required tools 4) Methodology 5) CSV's generated for specific visual creation 
-
-### 🎯 Objectives
+## LASTLY 
+-  Reproducing the project comes last with the 
+1) Steps to Reproduce 
+2) Dataset Link access 
+3) Required tools 
+4) Methodology 
+5) CSV's generated for specific visual creation 
+<br>
+## 🎯 Objectives
 
 -  Quantify demand volatility across restaurant formats
 
@@ -22,11 +29,13 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  Assess the impact of external stressors (weather, promotions, events)
 
 -  Translate analytical findings into operational insights
+<br><br>
 
 ### Data Set Acquired From 
 - 🔗 https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews
+<br>
 
-### 🧠 Key Questions Addressed
+## 🧠 Key Questions Addressed
 
 -  Which restaurant types experience the highest demand volatility?
 
@@ -37,6 +46,7 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  What operational factors contribute most to instability?
 
 -  How does weather (Stressful (Rain) VS Normal weather) influence Demand? 
+<br>
 
 ### 🧪 Methodology
 -  Data was imported in csv format and data was cleaned by normalizing dates to a more accesible format, needed columns were also renamed for easier access in regards to less typing
@@ -50,10 +60,12 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  Weather, restaurant and restaurant statistical spreads are calculated in regard to RVI
 
 -  Time bound Volatility i.e, day of week, weekday vs weekend, was calculated on a day to day basis with absolute values of revenue percent change by the day and adjusted to weekday vs weekend groups as well as compared by restaurant types
+<br><br>
 
 ## 📊 Dashboard Overview
 
 <img width="1920" height="1079" alt="VOLATILITY SNAP 1" src="https://github.com/user-attachments/assets/39d82ba7-6e98-42fe-aeb7-9fee6e1800a7" />
+<br><br>
 
 ### 1️⃣ Executive Summary Dashboard
 
@@ -66,7 +78,7 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  Weekends show significantly higher volatility than weekdays
 
 -  Across all restaurant types as a whole, demand Volatility is relatively high
-
+<br><br>
 ### 2️⃣ Volatility by Restaurant Type also According to Dashboard
 
 **Understanding structural demand differences.**
@@ -77,11 +89,11 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 - Kopitiam Locations show the lowest Volatility
 
 - Kopitiam Locations show the most stable average Demand
-
+<br><br>
 ### 3️⃣ Time-Based Volatility Analysis
 
 <img width="1920" height="1078" alt="VOLATILITY SNAP 2" src="https://github.com/user-attachments/assets/fe12bf68-506f-423d-8b70-86dfa3622052" />
-
+<br><br>
 
 **How demand changes across days and weeks.**
 
@@ -94,63 +106,69 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  Huge change in Volatility for august and then Sharp fall for September signalling end of summer and beginning of school period signalling less family and student traffic
 
 -  Huge Difference in Volatility from End of year Holiday Season and January as Families contribute to demand in December, and then individuals follow trends such as Dry January leading to a High change in Volatility 
-
+<br><br>
 ### 4️⃣ Volatility Distribution & Risk Profiles
 <img width="1920" height="1079" alt="VOLATILITY SNAP 3" src="https://github.com/user-attachments/assets/8f04447e-b36a-4a96-8e45-f623905a2647" />
+<br><br>
 
--  Comparing dispersion and risk across restaurant types.
+**Comparing dispersion and risk across restaurant types.**
 
 **Insights**
--  Promotional activity has limited stabilizing impact, as low promotion dominates across promotion segment for all risk factors showing most demand is organic and mostly generally stable with peak period sensitivity and is not strongly driven by promotion sitting at a 0.26 on the RVI. This highly takes into consideration that low promotion dominates across all risk sections.   
+-  Promotional activity has limited stabilizing impact, In this sample, volatility levels did not differ substantially across promotion tiers compared to other structural factors (restaurant type, time). This highly takes into consideration that low promotion dominates across all risk sections.   
   
 -  Volatility clusters around behavioral, not promotional, factors
 
 -  Behavioral interpretations are informed by industry knowledge and supported by observed statistical distributions, but are not causal claims.
 
--  Casual Dining and food stalls show the highest skews from the mean i.e Standard deviation(std) from the mean at a 0.19 std on the RVI with Casual dining having a max RVi of 1 as opposed to Food Stalls at 0.91 std i.e  Both aresensitive to experiential demand. Casual Dining locations are the average person's go to, therefore having the most amount of skews in regards to traffic. Holiday periods affect Casual dinings the most as most families especially with kids and older populations cater to casual dining. Food stalls may see sharp increase in demand due to concerts, fairs and then have limited traffic once concentrated visits due to events are over with.
+-  Note: The following interpretations are hypotheses informed by observed distributions and industry context, not causal mechanisms.
+  
+  -  Casual Dining and food stalls show the highest skews from the mean i.e Standard deviation(std) from the mean at a 0.19 std on the RVI with Casual dining having a max RVi of 1 as opposed to Food Stalls at 0.91 std i.e  Both aresensitive to experiential demand. Casual Dining locations are the average person's go to, therefore having the most amount of skews in regards to traffic. Holiday periods affect Casual dinings the most as most families especially with kids and older populations cater to casual dining. Food stalls may see sharp increase in demand due to concerts, fairs and then have limited traffic once concentrated visits due to events are over with.
 
--  Kopitiam exhibit the most stable patterns showing a standard deviation of 0.08 from the mean on the RVI with a 0.32 max. Kopitiam is a niche restaurant format, signalling acquired taste or regulars who seek out specific profiles of coffee. Social media Trends or such can influence attention around Kopitiam and affect volatility. Hence having the least amount of skew from the average. 
+  -  Kopitiam exhibit the most stable patterns showing a standard deviation of 0.08 from the mean on the RVI with a 0.32 max. Kopitiam is a niche restaurant format, signalling acquired taste or regulars who seek out specific profiles of coffee. Social media Trends or such can influence attention around Kopitiam and affect volatility. Hence having the least amount of skew from the average. 
 
--  Cafés and Fine Dining sit in the middle range of skews from the average with 0.15 and 0.16 deviation from the mean respectively, both close to Casual dining and Food stalls, but also Cafe's and Fine Dining stay in the mid range by balancing out with their max on the RVI scale of 0.73 max for Cafe's and 0.79 max for Fine Dining on the RVI. While fine dining exceeds cafe in skew, cafe's have increased presence of regulars, people looking to study, or grab coffee on the way to work and therefore contribute to regular predictable traffic. Fine dining serves the less popular crowds, with more money to spend per visit, or celebrating special occasions, and also in most cases requiring reservations, in a way have controlled traffic. 
-
+  -  Cafés and Fine Dining sit in the middle range of skews from the average with 0.15 and 0.16 deviation from the mean respectively, both close to Casual dining and Food stalls, but also Cafe's and Fine Dining stay in the mid range by balancing out with their max on the RVI scale of 0.73 max for Cafe's and 0.79 max for Fine Dining on the RVI. While fine dining exceeds cafe in skew, cafe's have increased presence of regulars, people looking to study, or grab coffee on the way to work and therefore contribute to regular predictable traffic. Fine dining serves the less popular crowds, with more money to spend per visit, or celebrating special occasions, and also in most cases requiring reservations, in a way have controlled traffic. 
+<br><br>
 5️⃣ Executive Summary & Recommendations
 
 <img width="1920" height="1080" alt="VOLATILITY SNAP4" src="https://github.com/user-attachments/assets/e20c7651-9856-4bf9-8bf5-c88a7c3870b2" />
 
-
+<br>
 
 **Translating data into decisions.**
 
 **Key Findings**
 
--  Demand volatility is structurally driven, not random
+-  Demand volatility exhibits structured patterns across time, restaurant types, and external conditions, suggesting non-random influences
+  
+-  Weekends and Holiday Periods amplify volatility across all restaurant types. I observed statistically significant differences in average RVI by day type and season segments
 
--  Weekends and Holiday Periods amplify volatility across all restaurant types
-
--  Promotions do not meaningfully stabilize demand
+-  Promotions do not meaningfully stabilize demand i.e Meaningful means volatility changes associated with promotion tiers fell within the lower RVI quartiles and did not substantially shift central tendency relative to time/format effects.
 
 -  Operational design matters more than pricing tactics
-
+<br><br>
 **Recommendations**
 
--  Increase staffing flexibility during peak volatility windows, especially to casual dining locations - We do this by allowing more flexibility in schedule by having more employees on call during weekends shown to have about 33% volatility increase compared to weekdays, and holiday periods during the summer and years end which have about 20% and 40% differences respectivelly to combat unstable traffic and reduce wait times among customers to maintain consistently remarkable  experience among customers 
+-  Increase staffing flexibility during peak volatility windows, especially to casual dining locations - We do this by allowing more flexibility in schedule by having more employees on call during weekends shown to have about 33% volatility increase compared to weekdays, and holiday periods during the summer and years end which have about 20% and 40% differences respectively. Based on observed volatility patterns, increasing staffing flexibility during high-volatility periods may reduce service gaps. 
 
 -  Focus on operational consistency rather than discounting - To do this we need to ensure service, especially commendable service is delivered across the board by every employee, by implimenting extra training to bridge the gap where needed between employees 
 
 -  Monitor high-risk formats with proactive forecasting - Apart from implimenting on call shifts to match unpredictable traffic. Implimenting secret shoppers to evaluate service, encouraging customer reviews on visit days to guage experience by the day and having spot checks by managers on duty will help bridge the gap and take notice of operational factors that lead to inconsistencies in Revenue
-
+<br><br>
 ### Limitations 
 
 -  Figures such as labor percentages i.e employees on shift per daily and hourly revenue, amd which specific are employees scheduled on specific days, as well as having customers leave reviews on days of visit would help establish correlation that contribute to focusing efforts where needed to improve Operational Conditions.
--  As there were no recorded events, it was impossible to ascertain the effects of events in isolation or combination with other factors on Volatilty, which could potentially be a stressor for volatility change 
+
+-  As there were no recorded events, it was impossible to ascertain the effects of events in isolation or combination with other factors on Volatilty, which could potentially be a stressor for volatility change.
+
+-  Seasonal and calendar patterns are described as associations with volatility; causal inference is not claimed due to lack of controlled event data.
 
 <img width="1920" height="1080" alt="VOLATILITY SNAP 5" src="https://github.com/user-attachments/assets/0c8765a9-5755-444a-b808-41c844b4229b" />
 
-
+<br><br>
 **Data Source: Public restaurant transaction dataset**
-
+<br><br>
 ## Tools Used: Python (Pandas) 🐍, Power BI 📈 📐
-
+<br><br>
 ### Metrics Created:
 
 -  Average of Revenue Volatility Index Ranges (Highest and Lowest) 
@@ -160,12 +178,12 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  Restaurant-type segmentation
 
 **Approach: Descriptive analytics with behavioral interpretation**
-
+<br><br>
 ### 🧩 Key Takeaway
 
 -  Demand volatility is not random — it is driven by structural and behavioral factors.
 -  Understanding when and why volatility occurs enables smarter operational planning than reactive pricing strategies.
-
+<br><br>
 ### 🛠 Tech Stack
 
 -  Python (Pandas, NumPy) 🐍
@@ -176,7 +194,7 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 
 -  GitHub (version control & documentation)
 
-
+<br><br>
 ## ⚙️ How to Reproduce
 ### Requirements
 
@@ -187,7 +205,7 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  Jupyter Notebook
   
 -  Power Bi To run CSV files
-
+<br><br>
 ## Steps
 
 -  Kaggle Account is needed to access and download source file [https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews]
@@ -213,7 +231,7 @@ OBJECTIVES ---> KEY QUESTIONS ADDRESSED ---> DASHBOARD AND VISUAL OVERVIEW AND I
 -  CSV's from generated data can be loaded into PowerBI from Visual and Dashboard Creation
 
 -  Explore queries and modify filters for deeper analysis
-
+<br><br>
 ### 📎 Author
 
 [Dare Oyeleke]
